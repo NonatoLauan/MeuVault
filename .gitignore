@@ -1,0 +1,15 @@
+# Obsidian core (dinâmico e local)
+.obsidian/workspace.json
+.obsidian/cache/
+.obsidian/hotkeys.json
+
+# Plugins que causam conflito (IMPORTANTE)
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/plugins/obsidian-git/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs temporários
+*.log
