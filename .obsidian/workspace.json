@@ -4,37 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f72325398ef22bb2",
+        "id": "62e8a92818238128",
         "type": "tabs",
         "children": [
           {
-            "id": "46582a7ca8458d40",
+            "id": "da5a58e7e33333da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bem-vindo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bem-vindo"
-            }
-          }
-        ]
-      },
-      {
-        "id": "c759e0ae151b477d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f3d1b74f3a155cfc",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "icon": "lucide-file",
+              "title": "Nova aba"
             }
           }
         ]
@@ -180,13 +160,23 @@
               "icon": "lucide-list",
               "title": "Sumário de Bem-vindo"
             }
+          },
+          {
+            "id": "07f4e1e2c709d596",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,11 +186,18 @@
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false
+      "bases:Criar nova base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "46582a7ca8458d40",
+  "active": "da5a58e7e33333da",
   "lastOpenFiles": [
-    "Bem-vindo.md"
+    "conflict-files-obsidian-git.md",
+    "Sumário.md",
+    "MeuVault~Stashed changes",
+    "Bem-vindo.md",
+    "Sem título",
+    "MeuVault/Bem-vindo.md",
+    "MeuVault"
   ]
 }
