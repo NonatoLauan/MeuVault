@@ -11,10 +11,10 @@
             "id": "da5a58e7e33333da",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Nova aba"
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "039c63b3f4a43d14",
@@ -192,8 +193,10 @@
   },
   "active": "da5a58e7e33333da",
   "lastOpenFiles": [
+    "Lógica de Programação.md",
+    "Carreira - Hub.md",
+    "Homepage.md",
     "conflict-files-obsidian-git.md",
-    "Sumário.md",
     "MeuVault~Stashed changes",
     "Bem-vindo.md",
     "Sem título",
