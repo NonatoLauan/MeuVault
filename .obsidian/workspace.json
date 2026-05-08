@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "62e8a92818238128",
+        "id": "e8b323e16548bc34",
         "type": "tabs",
         "children": [
           {
-            "id": "da5a58e7e33333da",
+            "id": "cef75d8b4df0b112",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Visualização em gráfico"
-            }
-          },
-          {
-            "id": "8df12d7a59a2606e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MeuVault/Exercício De programação.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Exercício De programação"
             }
           }
         ]
@@ -50,7 +36,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTimeReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -88,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "039c63b3f4a43d14",
@@ -205,18 +192,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3efa2ddd074c965e",
+  "active": "cef75d8b4df0b112",
   "lastOpenFiles": [
-    "MeuVault/Lógica de Programação.md",
     "MeuVault/Exercício De programação.md",
-    "MeuVault/Loops.md",
-    "MeuVault/Switch.md",
-    "MeuVault/Operadores.md",
-    "MeuVault/If e Else.md",
-    "MeuVault/Tipos de dado.md",
-    "MeuVault/Variáveis.md",
     "MeuVault/Carreira - Hub.md",
     "MeuVault/Homepage.md",
+    "MeuVault/Loops.md",
+    "MeuVault/Tipos de dado.md",
+    "MeuVault/Switch.md",
+    "MeuVault/Operadores.md",
+    "MeuVault/Lógica de Programação.md",
+    "MeuVault/If e Else.md",
+    "MeuVault/Variáveis.md",
     "conflict-files-obsidian-git.md",
     "MeuVault~Stashed changes",
     "Bem-vindo.md",
