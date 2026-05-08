@@ -347,7 +347,22 @@ Exiba números de 1 a 10.
 
 💡 Usa:
 - Loop (for ou while)
+``` php
+ 8. Contagem de 1 a 10
+Exiba números de 1 a 10.
 
+echo "Contagem de 1 a 10 \n";
+sleep(1);
+
+$i = 0;
+
+while ( $i <= 10) {
+echo "$i \n";
+sleep(1);
+
+$i++;
+}
+```
 ---
 
 ## 9. Soma de 1 a N
@@ -357,7 +372,31 @@ Peça um número N e some todos os valores até ele.
 - Loop
 - Variáveis
 - Operadores
+``` php
+ 9. Soma de 1 a N
+Peça um número N e some todos os valores até ele. 
 
+echo "Soma de 1 a N \n";
+sleep(1);
+
+$n = readline("Digite um número : \n");
+sleep(1);
+
+$soma = 0;
+
+for ($i = 1; $i <= $n; $i++) {
+$soma += $i;
+echo $i;
+
+	if ( $i < $n) {
+	echo " + ";
+	}
+	flush();
+	sleep(1);
+}
+
+echo " = $soma\n";
+```
 ---
 
 ## 10. Tabuada
