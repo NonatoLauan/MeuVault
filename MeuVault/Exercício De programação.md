@@ -372,6 +372,7 @@ Peça um número N e some todos os valores até ele.
 - Loop
 - Variáveis
 - Operadores
+
 ``` php
  9. Soma de 1 a N
 Peça um número N e some todos os valores até ele. 
@@ -406,6 +407,29 @@ Mostre a tabuada de um número.
 - Loop
 - Operadores
 
+10. Tabuada
+
+``` php
+Mostre a tabuada de um número. */
+
+echo " Tabuada \n";
+sleep(1);
+
+$n = readline("Escreva um número para ver a sua tabuada \n");
+$n = floatval($n);
+sleep(1);
+
+echo"A tabuada de $n é:\n";
+
+for ( $i = 0; $i <= 10; $i++ ) {
+$multi = $n * $i;
+
+echo "$n x $i = $multi \n";
+sleep(1);
+}
+echo "Fim \n";
+
+```
 ---
 
 ## 11. Contar pares
@@ -415,6 +439,30 @@ Mostre quantos números pares existem de 1 a 50.
 - Loop
 - Operador %
 
+```php
+
+echo "Contador de pares\n";
+sleep(1);
+  
+$n = readline("Digite um número: ");
+sleep(1);
+
+$i = 1;
+$totalPar = 0;
+
+echo "Números pares: ";
+
+while ($i <= $n) {
+	if ($i % 2 == 0) {
+		echo $i . " ";
+		$totalPar++;
+		sleep(1);
+	}
+$i++;
+}
+echo "\nTotal de números pares entre 1 e $n: $totalPar\n";
+?>
+```
 ---
 
 # 🔴 Nível 4 — Misturando tudo
