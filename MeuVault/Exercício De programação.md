@@ -476,6 +476,48 @@ echo "\nTotal de números pares entre 1 e $n: $totalPar\n";
 - Variáveis
 - Operadores
 
+``` php
+
+12. Sistema de login simples
+
+- Usuário e senha fixos
+
+- Verificar se está correto 
+
+
+echo "Sistema de Login Simples\n";
+
+sleep(1);
+
+  
+
+$senha = "12345";
+
+$usuario = "nonato";
+
+  
+  
+
+$user = readline("Digite o usuário: \n");
+
+  
+
+$s = readline("Digite a senha: \n");
+
+  
+
+if ($user === $usuario && $s === $senha) {
+
+echo "Login bem-sucedido! Bem-vindo, $usuario.\n";
+
+} else {
+
+echo "Login falhou! Usuário ou senha incorretos.\n";
+
+}
+
+```
+
 ---
 
 ## 13. Média de notas
@@ -487,6 +529,56 @@ echo "\nTotal de números pares entre 1 e $n: $totalPar\n";
 - Variáveis
 - Operadores
 - If e Else
+
+``` php
+
+13. Média de notas
+
+- Receber 3 notas
+
+- Calcular média
+
+- Dizer se passou ou não 
+
+  
+echo "Média de Notas\n";
+
+sleep(1);
+
+  
+
+$nota1 = readline("Digite a primeira nota: \n");
+
+sleep(1);
+
+  
+
+$nota2 = readline("Digite a segunda nota: \n");
+
+sleep(1);
+
+  
+
+$nota3 = readline("Digite a terceira nota: \n");
+
+sleep(1);
+
+  
+
+$media = ($nota1 + $nota2 + $nota3) / 3;
+
+  
+
+if ($media >= 7) {
+
+echo "Parabéns! Você foi aprovado com média $media.\n";
+
+} else {
+
+echo "Infelizmente, você não foi aprovado. Sua média foi $media.\n";
+
+}
+```
 
 ---
 
@@ -501,6 +593,85 @@ echo "\nTotal de números pares entre 1 e $n: $totalPar\n";
 - Switch
 - Loop
 - Variáveis
+
+``` php
+
+ 14. Menu de opções (Switch + Loop)
+
+- Mostrar menu:
+
+1. Somar
+
+2. Subtrair
+
+3. Sair
+
+- Repetir até sair 
+
+  
+
+echo "Menu de Opções\n";
+
+sleep(1);
+
+  
+
+while (true) {
+
+echo "Escolha uma opção:\n";
+
+echo "1. Somar\n";
+
+echo "2. Subtrair\n";
+
+echo "3. Sair\n";
+
+  
+
+$opcao = readline("Digite o número da opção: \n");
+
+  
+
+switch ($opcao) {
+
+case '1':
+
+$num1 = readline("Digite o primeiro número: \n");
+
+$num2 = readline("Digite o segundo número: \n");
+
+$resultado = $num1 + $num2;
+
+echo "O resultado da soma é: $resultado\n";
+
+break;
+
+case '2':
+
+$num1 = readline("Digite o primeiro número: \n");
+
+$num2 = readline("Digite o segundo número: \n");
+
+$resultado = $num1 - $num2;
+
+echo "O resultado da subtração é: $resultado\n";
+
+break;
+
+case '3':
+
+echo "Saindo do programa. Até logo!\n";
+
+exit(0);
+
+default:
+
+echo "Opção inválida. Por favor, tente novamente.\n";
+
+}
+
+}
+```
 
 ---
 
