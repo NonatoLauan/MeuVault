@@ -1,6 +1,4 @@
-### Habilidades técnicas
-
-- [[Lógica de Programação]]
+### [[Habilidades técnicas]]
 
 ### Projetos 
 
