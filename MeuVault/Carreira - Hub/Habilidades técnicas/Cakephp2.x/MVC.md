@@ -34,3 +34,5 @@ A **View** é o que o usuário vê.
 Ela apenas mostra informações
 
 Exemplo: index.ctp; add.ctp; edit.ctp.
+### Controller  -  Direcionamento
+O **Controller** (Controlador) ==é o cérebro da arquitetura MVC==. Ele atua como o intermediário que recebe as solicitações do usuário, processa a lógica de negócios, interage com o **Model** (dados) e determina qual **View** (interface gráfica) deve ser exibida.
